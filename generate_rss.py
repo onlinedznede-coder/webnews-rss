@@ -6,7 +6,7 @@ from feedgen.feed import FeedGenerator
 
 
 def generate_dzne_rss():
-    target_url = "[https://www.dzne.de/en/news/webnews/](https://www.dzne.de/en/news/webnews/)"
+    target_url = "https://www.dzne.de/en/news/webnews/"
 
     # Headers mitsenden, damit die Anfrage nicht blockiert wird
     headers = {
